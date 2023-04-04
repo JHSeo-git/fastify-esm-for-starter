@@ -1,0 +1,8 @@
+{
+  "-- Getting started": {
+    "type": "separator",
+    "title": "Getting started"
+  },
+  "index": "Introduction",
+  "installation": "Installation"
+}
