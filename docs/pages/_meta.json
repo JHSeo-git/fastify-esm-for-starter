@@ -2,18 +2,15 @@
   "index": {
     "type": "page",
     "title": "Nextra",
-    "display": "hidden",
-    "theme": {
-      "layout": "raw"
-    }
+    "display": "hidden"
   },
   "docs": {
     "type": "page",
-    "title": "Documentation"
+    "title": "문서"
   },
   "about": {
     "type": "page",
-    "title": "About",
+    "title": "소개",
     "theme": {
       "typesetting": "article"
     }

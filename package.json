@@ -1,6 +1,6 @@
 {
   "name": "fastify-esm-for-starter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Repository using Fastify ESM for starter",
   "type": "module",
   "license": "MIT",

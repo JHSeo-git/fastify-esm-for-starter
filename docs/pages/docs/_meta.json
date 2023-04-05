@@ -1,8 +1,8 @@
 {
   "-- Getting started": {
     "type": "separator",
-    "title": "Getting started"
+    "title": "시작하기"
   },
-  "index": "Introduction",
-  "installation": "Installation"
+  "index": "소개",
+  "installation": "설치"
 }
