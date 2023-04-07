@@ -1,4 +1,4 @@
-import { fastify } from './app.js';
+import { fastify } from '@/app.js';
 
 fastify.listen({ port: 4000 }, (err, address) => {
   if (err) {
