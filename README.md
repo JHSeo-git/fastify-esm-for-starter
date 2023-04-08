@@ -1,3 +1,8 @@
 # fastify-esm-for-starter
 
-Repository using Fastify ESM for starter.
+- Fastify
+- ES Module
+- TypeScript^5
+- nanobundle
+- tsx (TypeScript Execute)
+- ESLint
