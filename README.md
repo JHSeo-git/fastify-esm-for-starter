@@ -6,3 +6,4 @@
 - nanobundle
 - tsx (TypeScript Execute)
 - ESLint
+- jest (ts-jest)
