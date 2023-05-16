@@ -8,6 +8,7 @@ export default {
   preset: 'ts-jest/presets/default-esm',
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',
+    '^@/(.*)\\.js$': '<rootDir>/src/$1',
   },
   transform: {
     // '^.+\\.[tj]sx?$' to process js/ts with `ts-jest`
