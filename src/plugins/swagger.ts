@@ -4,6 +4,8 @@ import { fastifySwagger } from '@fastify/swagger';
 import { fastifySwaggerUi } from '@fastify/swagger-ui';
 import { fastifyPlugin } from 'fastify-plugin';
 
+import { _dirname } from '@/lib/utils/node-utils.js';
+
 const isDev = process.env.NODE_ENV === 'development';
 
 /**
@@ -41,6 +43,6 @@ export const swagger = fastifyPlugin(async (fastify) => {
     hideUntagged: true,
   });
   fastify.register(fastifySwaggerUi, {
-    baseDir: isDev ? undefined : resolve('static'),
+    baseDir: isDev ? undefined : resolve(_dirname, 'static'),
   });
 });
