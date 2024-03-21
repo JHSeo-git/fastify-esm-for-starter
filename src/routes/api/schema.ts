@@ -1,11 +1,11 @@
-import { Type } from '@fastify/type-provider-typebox';
+import { Type } from "@fastify/type-provider-typebox"
 
-import { createRouteSchema } from '@/lib/utils/typebox-utils.js';
+import { createRouteSchema } from "@/lib/utils/typebox-utils.js"
 
 export const SampleSchema = createRouteSchema({
-  tags: ['Sample'],
-  summary: 'Sample Test API',
-  description: 'Sample Test API with swagger, typebox',
+  tags: ["Sample"],
+  summary: "Sample Test API",
+  description: "Sample Test API with swagger, typebox",
   querystring: Type.Object({
     name: Type.Optional(Type.String()),
   }),
@@ -14,4 +14,4 @@ export const SampleSchema = createRouteSchema({
       value: Type.String(),
     }),
   },
-});
+})
