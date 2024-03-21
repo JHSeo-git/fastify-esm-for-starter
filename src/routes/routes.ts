@@ -1,9 +1,9 @@
-import type { FastifyPluginAsync } from 'fastify';
+import type { FastifyPluginAsync } from "fastify"
 
-import { apiRoutes } from './api/api-routes.js';
+import { apiRoutes } from "./api/api-routes.js"
 
 const routes: FastifyPluginAsync = async (fastify) => {
-  fastify.register(apiRoutes, { prefix: '/api' });
-};
+  fastify.register(apiRoutes, { prefix: "/api" })
+}
 
-export { routes };
+export { routes }
