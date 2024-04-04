@@ -16,7 +16,7 @@ dependencies:
     version: 3.0.0
   '@fastify/type-provider-typebox':
     specifier: ^4.0.0
-    version: 4.0.0(@sinclair/typebox@0.32.18)
+    version: 4.0.0(@sinclair/typebox@0.32.20)
   fastify:
     specifier: ^4.26.2
     version: 4.26.2
@@ -84,7 +84,7 @@ devDependencies:
     version: 29.1.2(@babel/core@7.24.3)(jest@29.7.0)(typescript@5.4.3)
   tsx:
     specifier: ^4.7.1
-    version: 4.7.1
+    version: 4.7.2
   typescript:
     specifier: ^5.4.3
     version: 5.4.3
@@ -938,12 +938,12 @@ packages:
       - supports-color
     dev: false
 
-  /@fastify/type-provider-typebox@4.0.0(@sinclair/typebox@0.32.18):
+  /@fastify/type-provider-typebox@4.0.0(@sinclair/typebox@0.32.20):
     resolution: {integrity: sha512-kTlN0saC/+xhcQPyBjb3YONQAMjiD/EHlCRjQjsr5E3NFjS5K8ZX5LGzXYDRjSa+sV4y8gTL5Q7FlObePv4iTA==}
     peerDependencies:
       '@sinclair/typebox': '>=0.26 <=0.32'
     dependencies:
-      '@sinclair/typebox': 0.32.18
+      '@sinclair/typebox': 0.32.20
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
@@ -1300,8 +1300,8 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@sinclair/typebox@0.32.18:
-    resolution: {integrity: sha512-ioMK5TA5YOloYf/GcnF+1fT4eTvowJes2j7Pm0Ivlm9xq61keqQw/XtbQQnPG8O4uq2y2DDenU8OqNc93xn11Q==}
+  /@sinclair/typebox@0.32.20:
+    resolution: {integrity: sha512-ziK497ILSIYMxD/thl496idIb03IZPlha04itLQu1xAFQbumWZ+Dj4PMMCkDRpAYhvVSdmRlTjGu2B2MA5RplQ==}
     dev: false
 
   /@sinonjs/commons@3.0.1:
@@ -4670,8 +4670,8 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /tsx@4.7.1:
-    resolution: {integrity: sha512-8d6VuibXHtlN5E3zFkgY8u4DX7Y3Z27zvvPKVmLon/D4AjuKzarkUBTLDBgj9iTQ0hg5xM7c/mYiRVM+HETf0g==}
+  /tsx@4.7.2:
+    resolution: {integrity: sha512-BCNd4kz6fz12fyrgCTEdZHGJ9fWTGeUzXmQysh0RVocDY3h4frk05ZNCXSy4kIenF7y/QnrdiVpTsyNRn6vlAw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
